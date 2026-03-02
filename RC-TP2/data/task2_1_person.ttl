@@ -1,0 +1,13 @@
+@prefix ex: <http://example.org/kg-ciencias/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+ex:thalia
+    a foaf:Person ;
+    foaf:givenName "Thalia" ;
+    foaf:familyName "D" ;
+    foaf:name "Thalia D" ;
+    dbo:birthPlace dbr:Brussels ;
+    dbo:country dbr:Belgium ;
+    dbo:language dbr:French_language, dbr:English_language, dbr:Greek_language .
